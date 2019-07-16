@@ -10,7 +10,7 @@ name prefix.
 Reason for the project
 ----------------------
 
-1. Some (external) projects automatically use a database prefix for 
+1. Some (external) projects automatically use a database prefix for
    interaction with a database. This is particularly common in implementations
    of the Active Record pattern.
 
@@ -52,7 +52,7 @@ you want to be prepended.
 For example, for the model bar_app.models.Baz the default table would be:
 `bar_app_baz`
 
-By setting `DB_PREFIX` to `foo`, the table would be `foo_bar_app_baz`.
+By setting `DB_PREFIX` to `foo_`, the table would be `foo_bar_app_baz`.
 
 Per-Application and Per-Model Prefix
 ====================================
